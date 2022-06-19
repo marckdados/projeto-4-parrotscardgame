@@ -44,7 +44,16 @@ main{
     border: 1px solid #99CEA8;
     border-radius: 5px;
     margin: 10px 5px;
+
+    transition: transform .5s;
 }
 .baralho li > img{
     width: 80%;
+}
+
+.escondido{
+    display: none;
+}
+.virar{
+    transform: rotateY(180deg);
 }
